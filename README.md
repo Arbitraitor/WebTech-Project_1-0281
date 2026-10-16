@@ -22,4 +22,6 @@ AI tools were used strictly as a tutor for planning, brainstorming, sourcing of 
 
 14-10-2026: Used Gemini **FOR** Creating a layout/phase planning for the website creation, Sourcing various non-copyright media to be used in the website, Help with integrating VS Code and Git, Creating a template for README.
 
-15-10-2026: Used Gemini, ChatGPT **FOR** HTML codes/explanations for various symbols and commands (e.g. &amp and blockquote, span, em), Renaming blocks/classes/divs to be more meaningful and easier to integrate into the css.
+15-10-2026: Used Gemini, ChatGPT **FOR** HTML codes syntax/explanations for various symbols and commands (e.g. &amp and blockquote, span, em), Renaming blocks/classes/divs to be more meaningful and easier to integrate into the css.
+
+17-10-2026: Used Gemini, ChatGPT **FOR** HTML codes syntax/explanations for various symbols and commands (e.g. value, for, input, checked, required, placeholder, etc), Naming convention, Analyzing code validity compared to the requirements mentioned.
