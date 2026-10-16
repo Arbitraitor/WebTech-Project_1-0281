@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media &amp; Press Kit | UCP Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="media-header">
+        <div class="header-glass-card">
+            <span class="press-tag">ELECTRONIC PRESS KIT // EPK-2026</span>
+            <h1>CHRONICLES OF <span class="accent-violet">AETHELGARD</span></h1>
+            <p>High-Bitrate Gameplay Captures, Original Soundtrack &amp; Hardware Benchmarks</p>
+
+            <!-- Navigation Bar -->
+            <nav class="pill-nav">
+                <a href="Home.html">Home</a>
+                <a href="media.html" class="current-pill">Media &amp; Press</a>
+                <a href="register.html">Job Application</a>
+                <a href="services.html">Games Showcase</a>
+                <a href="portfolio.html">Dev Logs</a>
+                <a href="contact.html">About &amp; Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="media-container">
+
+        <!-- Video Trailer Theater -->
+        <section class="trailer-theater">
+            <span class="badge-left">PRESS EXCLUSIVE</span>
+            <span class="badge-right">4K ULTRA HD // 60 FPS</span>
+
+            <h2>Official Gameplay Reveal Trailer</h2>
+            <p class="theater-sub">Captured real-time on PC (RTX 4070) — showcasing the Sunken Cathedral Boss Raid.</p>
+
+            <div class="video-frame">
+                <video controls class="trailer-video" poster="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=85">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+
+            <div class="press-meta-strip">
+                <span class="meta-item"><strong>GENRE:</strong> Dark-Fantasy Action RPG</span>
+                <span class="meta-item"><strong>ENGINE:</strong> Unreal Engine 5.4 Custom</span>
+                <span class="meta-item"><strong>PLATFORMS:</strong> PC (Steam), PS5, Xbox Series X|S</span>
+            </div>
+        </section>
+
+        <!-- Float Layout Section -->
+        <section class="float-showcase">
+
+            <!-- FLOATED LEFT COLUMN -->
+            <div class="media-sidebar">
+                <span class="card-kicker">PROMO ASSETS &amp; AUDIO</span>
+                <h3>Key Art &amp; Original Soundtrack</h3>
+
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80" alt="Aethelgard Official Key Art" class="press-image">
+
+                <div class="ost-card">
+                    <div class="ost-title">🎵 Track 04: "The Iron Warden's Oath" (OST Preview)</div>
+                    <p class="ost-composer">Composed by Vexel &amp; The Lahore Chamber Strings</p>
+                    <audio controls class="audio-player">
+                        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+
+            <!-- FLOATED RIGHT COLUMN -->
+            <div class="media-details">
+                <span class="card-kicker">FACT SHEET &amp; TIMELINE</span>
+                <h3>Core Combat Features</h3>
+                <ul class="feature-list">
+                    <li><strong>Posture &amp; Parry System:</strong> Deflect boss strikes to shatter armor plating.</li>
+                    <li><strong>Arcane Relic Crafting:</strong> Combine 45+ runes to alter weapon elemental states.</li>
+                    <li><strong>Dynamic Eclipse World:</strong> Enemies mutate when the Blood Moon rises.</li>
+                    <li><strong>Zero Loading Screens:</strong> Seamless interconnected vertical world design.</li>
+                </ul>
+
+                <h3>2026 Production Roadmap</h3>
+                <ol class="roadmap-list">
+                    <li><strong>Q1 2026:</strong> Closed Combat Alpha &amp; Boss Balancing</li>
+                    <li><strong>Q2 2026:</strong> Steam Next Fest Public Demo Slice</li>
+                    <li><strong>Q3 2026:</strong> Console Certification &amp; 9-Language Localization</li>
+                    <li><strong>Q4 2026:</strong> Global Digital &amp; Collector's Edition Launch</li>
+                </ol>
+
+                <h3>Press Wire &amp; Dev Patch Log</h3>
+                <div class="patch-notes-scroll">
+                    <p><strong>[OCT 2026 - BUILD 0.9.4]:</strong> Surpassed 185,000 Steam Wishlists! Added NVIDIA DLSS 3.5 and AMD FSR 3 frame generation support to press review builds.</p>
+                    <p><strong>[AUG 2026 - BUILD 0.8.2]:</strong> Showcased the Sunken Cathedral raid at Gamescom Indie Arena Booth. Over 4,000 attendees completed the challenge mode.</p>
+                    <p><strong>[JUN 2026 - BUILD 0.7.0]:</strong> Completed live orchestral recording sessions for the 22-track original soundtrack. Press review keys go out November 1st.</p>
+                    <p><strong>[APR 2026 - BUILD 0.5.5]:</strong> Rebuilt particle shader pipeline to guarantee locked 60 FPS on Steam Deck OLED hardware.</p>
+                </div>
+            </div>
+
+            <!-- Restore normal document flow after floats -->
+            <div class="clear-floats"></div>
+        </section>
+
+        <!-- Data Table Section -->
+        <section class="table-section">
+            <span class="card-kicker">HARDWARE BENCHMARKS</span>
+            <h2>PC System Requirements Matrix</h2>
+            <p>Tested across Windows 11 and Ubuntu Linux with Vulkan and DirectX 12 backends.</p>
+
+            <table class="specs-table">
+                <thead>
+                    <tr>
+                        <th>Hardware Tier</th>
+                        <th>Minimum (1080p @ 60 FPS)</th>
+                        <th>Recommended (1440p @ 120 FPS)</th>
+                        <th>Ultra Ray-Traced (4K @ 60 FPS)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="spec-name">Operating System</td>
+                        <td>Windows 10 64-bit / Ubuntu 22.04</td>
+                        <td>Windows 11 26H2 / Ubuntu 24.04</td>
+                        <td>Windows 11 26H2 (64-bit)</td>
+                    </tr>
+                    <tr>
+                        <td class="spec-name">Processor (CPU)</td>
+                        <td>Intel Core i5-9400F / Ryzen 5 3600</td>
+                        <td>Intel Core i7-12700K / Ryzen 7 5800X3D</td>
+                        <td>Intel Core i9-13900K / Ryzen 7 7800X3D</td>
+                    </tr>
+                    <tr>
+                        <td class="spec-name">System Memory</td>
+                        <td>12 GB Dual-Channel RAM</td>
+                        <td>16 GB DDR4 / DDR5 RAM</td>
+                        <td>32 GB DDR5 RAM</td>
+                    </tr>
+                    <tr>
+                        <td class="spec-name">Graphics Card (GPU)</td>
+                        <td>NVIDIA GTX 1660 Super / RX 6600</td>
+                        <td>NVIDIA RTX 3070 / Radeon RX 6800 XT</td>
+                        <td>NVIDIA RTX 4080 / Radeon RX 7900 XTX</td>
+                    </tr>
+                    <tr>
+                        <td class="spec-name">Storage Drive</td>
+                        <td>25 GB SATA SSD</td>
+                        <td>25 GB NVMe M.2 SSD</td>
+                        <td>25 GB Gen4 NVMe SSD (DirectStorage)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer class="media-footer">
+        <p>UCP STUDIO PRESS DESK // Request Steam Review Keys at <strong>press@ucpstudio.com</strong></p>
+        <p>&copy; 2026 UCP Studio. All media assets cleared for editorial broadcast.</p>
+    </footer>
+
+</body>
+
+</html>
