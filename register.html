@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application | UCP Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+    <header class="reg-header">
+        <nav class="bracket-nav">
+            <a href="Home.html">Home</a>
+            <a href="media.html">Media &amp; Press</a>
+            <a href="register.html" class="active-nav">Job Application</a>
+            <a href="services.html">Games Showcase</a>
+            <a href="portfolio.html">Dev Logs</a>
+            <a href="contact.html">About &amp; Contact</a>
+        </nav>
+        <h1>JOIN OUR DEVELOPMENT TEAM</h1>
+        <p>Apply for open 2026 game programming and art positions.</p>
+    </header>
+
+    <main class="form-container">
+        <h2>Job Application Form</h2>
+        <p>Fields with an asterisk are required. Valid inputs turn green.</p>
+
+        <form action="#" method="post" class="job-form">
+
+            <!-- Readonly & Disabled -->
+            <div class="form-group">
+                <label for="job-id">Job ID</label>
+                <input type="text" id="job-id" value="UCP-DEV-2026" readonly>
+            </div>
+
+            <div class="form-group">
+                <label for="dept">Department</label>
+                <input type="text" id="dept" value="Core Game Engineering" disabled>
+            </div>
+
+            <!-- Required Inputs -->
+            <div class="form-group">
+                <label for="fullname" class="req">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter your name" minlength="3" maxlength="35" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="req">Email Address</label>
+                <input type="email" id="email" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="pin" class="req">Application Password</label>
+                <input type="password" id="pin" placeholder="6 to 16 characters" minlength="6" maxlength="16" required>
+            </div>
+
+            <div class="form-group">
+                <label for="portfolio" class="req">GitHub / Portfolio Link</label>
+                <input type="url" id="portfolio" placeholder="https://github.com/username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="role" class="req">Position</label>
+                <select id="role" required>
+                    <option value="cpp" selected>C++ Gameplay Programmer</option>
+                    <option value="artist">3D Environment Artist</option>
+                    <option value="qa">QA Game Tester</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exp" class="req">Years of Experience (0 - 20)</label>
+                <input type="number" id="exp" min="0" max="20" value="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="skill">C++ / Engine Skill Level (1 - 10)</label>
+                <input type="range" id="skill" min="1" max="10" value="7">
+            </div>
+
+            <div class="form-group">
+                <label for="date" class="req">Available Start Date</label>
+                <input type="date" id="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time">Preferred Interview Time</label>
+                <input type="time" id="time" value="14:00">
+            </div>
+
+            <div class="form-group">
+                <label for="cv" class="req">Upload Resume (PDF)</label>
+                <input type="file" id="cv" accept=".pdf" required>
+            </div>
+
+            <div class="form-group">
+                <p class="group-label">Work Mode</p>
+                <label class="inline-opt"><input type="radio" name="mode" value="hybrid" checked> Hybrid</label>
+                <label class="inline-opt"><input type="radio" name="mode" value="remote"> Remote</label>
+                <label class="inline-opt"><input type="radio" name="mode" value="onsite"> On-Site</label>
+            </div>
+
+            <div class="form-group">
+                <p class="group-label">Technical Skills</p>
+                <label class="inline-opt"><input type="checkbox" name="tech" value="cpp" checked> C++</label>
+                <label class="inline-opt"><input type="checkbox" name="tech" value="unreal"> Unreal Engine</label>
+                <label class="inline-opt"><input type="checkbox" name="tech" value="git" checked> Git</label>
+            </div>
+
+            <div class="form-group">
+                <label for="bio" class="req">Short Cover Note</label>
+                <textarea id="bio" rows="3" minlength="15" maxlength="300" placeholder="Tell us about your game dev projects (15-300 chars)..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </form>
+    </main>
+
+    <footer class="reg-footer">
+        <p>&copy; 2026 UCP Indie Game Studio</p>
+    </footer>
+
+</body>
+
+</html>
