@@ -4,132 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UCP Studio | Indie Game Development</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
+    <title>UCP Studio | Indie Game Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
 
-    <!-- ID Selector: #main-header -->
     <header id="main-header">
-        <div class="header-container">
-            <div class="brand-box">
-                <h1>UCP <span class="accent-crimson">STUDIO</span></h1>
-                <p class="tagline">Independent Dark-Fantasy &amp; Sci-Fi Game Architects</p>
-            </div>
+        <h1>UCP <span class="accent">STUDIO</span></h1>
+        <p class="tagline">Independent Action &amp; Dark-Fantasy Game Developers</p>
 
-            <nav class="main-nav">
-                <a href="index.html" class="nav-link active-link">Home</a>
-                <a href="media.html" class="nav-link">Media &amp; Press</a>
-                <a href="register.html" class="nav-link">Job Application</a>
-                <a href="services.html" class="nav-link">Games Showcase</a>
-                <a href="portfolio.html" class="nav-link">Dev Logs</a>
-                <a href="contact.html" class="nav-link">About &amp; Contact</a>
-            </nav>
-        </div>
+        <nav class="main-nav">
+            <a href="Home.html" class="active">Home</a>
+            <a href="media.html">Media &amp; Press</a>
+            <a href="register.html">Job Application</a>
+            <a href="services.html">Games Showcase</a>
+            <a href="portfolio.html">Dev Logs</a>
+            <a href="contact.html">About &amp; Contact</a>
+        </nav>
     </header>
 
-    <main>
-        <!-- ID Selector: #hero-banner -->
+    <main class="container">
+        <!-- Hero Block -->
         <section id="hero-banner">
-            <span class="eyebrow-badge">FLAGSHIP RELEASE // WINTER 2026</span>
-            <h2>FORGING WORLDS THAT <span class="accent-crimson">TEST YOUR RESOLVE</span></h2>
-            <p class="hero-lead">
-                Founded by veteran combat designers, <strong>UCP Game Studio</strong> crafts atmospheric,
-                <em>60-FPS action RPGs</em> built on hand-drawn frame animation and deep environmental lore. Experience our upcoming dark-fantasy epic, <span class="highlight-inline">Chronicles of Aethelgard</span>.
+            <h2>Upcoming Release: <span class="accent">Chronicles of Aethelgard</span></h2>
+            <p>
+                Welcome to <strong>UCP Indie Game Studio</strong>. We build atmospheric
+                <em>2D and 3D action RPGs</em> focused on tight combat and rich storytelling. Our flagship project launches in <span class="highlight">Winter 2026</span>.
             </p>
 
-            <!-- Call-To-Action Buttons -->
-            <div class="cta-group">
-                <a href="media.html" class="btn-primary">Watch Gameplay Trailer</a>
-                <a href="services.html" class="btn-secondary">Explore Our Games</a>
-            </div>
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=80" alt="Aethelgard Gameplay Concept" class="hero-img">
 
-            <!-- Featured Widescreen Hero Image -->
-            <div class="hero-image-frame">
-                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=85" alt="Chronicles of Aethelgard Boss Arena Concept" class="featured-image">
-                <p class="image-caption">
-                    In-Engine Capture: <em>The Sunken Citadel</em> — built with custom dynamic volumetric lighting.
-                </p>
-            </div>
+            <p>
+                Watch the trailer on our <a href="media.html">Media &amp; Press</a> page or apply for open roles on the <a href="register.html">Job Application</a> page.
+            </p>
         </section>
 
-        <!-- ID Selector: #studio-stats -->
-        <section id="studio-stats">
-            <div class="stat-card">
-                <span class="stat-number">185K+</span>
-                <span class="stat-label">Steam Wishlists</span>
-            </div>
-            <div class="stat-card">
-                <span class="stat-number">4</span>
-                <span class="stat-label">Original Indie IPs</span>
-            </div>
-            <div class="stat-card">
-                <span class="stat-number">96%</span>
-                <span class="stat-label">Overwhelmingly Positive</span>
-            </div>
-            <div class="stat-card">
-                <span class="stat-number">100%</span>
-                <span class="stat-label">Zero Microtransactions</span>
-            </div>
-        </section>
+        <!-- Studio Pillars Block -->
+        <article class="pillars-section">
+            <h3>What Our Studio Stands For</h3>
 
-        <!-- Block Element: article -->
-        <article class="studio-pillars-section">
-            <div class="section-heading">
-                <span class="eyebrow-badge">HOW WE BUILD</span>
-                <h3>THE UCP DEVELOPMENT DNA</h3>
-                <p>
-                    Every project inside our studio walls is governed by three uncompromising design laws.
-                </p>
+            <div class="card">
+                <h4>01. Fast Combat</h4>
+                <p>Responsive controls and <strong>60 FPS gameplay</strong> designed for action fans.</p>
             </div>
 
-            <div class="pillar-card">
-                <span class="pillar-index">01 // MECHANICS</span>
-                <h4>Frame-Perfect Combat</h4>
-                <p>
-                    We prioritize <strong>tight input responsiveness</strong> and hitbox accuracy. Every dodge, parry, and arcane strike runs at a locked <em>120Hz internal simulation</em>.
-                </p>
+            <div class="card">
+                <h4>02. Hand-Drawn Art</h4>
+                <p>Every level and boss arena is crafted by hand. See our <a href="portfolio.html">Dev Logs</a>.</p>
             </div>
 
-            <div class="pillar-card">
-                <span class="pillar-index">02 // ART DIRECTION</span>
-                <h4>Hand-Crafted Biomes</h4>
-                <p>
-                    No procedural filler. Our artists paint every texture and light every ruin by hand—see our behind-the-scenes work on the <a href="portfolio.html" class="inline-link">Dev Logs</a> page.
-                </p>
+            <div class="card">
+                <h4>03. Player First</h4>
+                <p>Complete single-player games with <em>zero microtransactions</em> or loot boxes.</p>
             </div>
 
-            <div class="pillar-card">
-                <span class="pillar-index">03 // PLAYER ETHICS</span>
-                <h4>Complete Editions Only</h4>
-                <p>
-                    We reject battle passes and loot boxes. When you buy an <span class="highlight-inline">UCP title</span>, you own the full experience from day one.
-                </p>
-            </div>
-        </article>
-
-        <!-- Recruitment Banner -->
-        <section class="director-callout">
-            <blockquote class="studio-quote">
-                "We build the games we stayed up until 3 AM playing in college—unforgiving, mysterious, and overflowing with secrets waiting to be uncovered."
-                <span class="quote-author">— Zayd Vance, Creative Director at UCP Studio</span>
+            <blockquote class="quote-box">
+                "Our goal is simple: build the indie games we love playing ourselves." — UCP Studio Team
             </blockquote>
-
-            <div class="hiring-strip">
-                <p>
-                    <strong>WE ARE HIRING FOR 2026:</strong> Looking for C++ Gameplay Programmers and Shader Artists. Submit your dossier via our <a href="register.html" class="inline-link">Job Application Portal</a> or reach out on the <a href="contact.html"
-                        class="inline-link">About &amp; Contact</a> page.
-                </p>
-            </div>
-        </section>
+        </article>
     </main>
 
-    <!-- ID Selector: #main-footer -->
     <footer id="main-footer">
-        <p class="footer-brand">UCP INDIE GAME STUDIO // LAHORE &amp; REMOTE</p>
-        <p>&copy; 2026 UCP Studio</p>
+        <p>&copy; 2026 UCP Indie Game Studio | Lahore, Pakistan</p>
     </footer>
 
 </body>
