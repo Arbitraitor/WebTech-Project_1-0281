@@ -1,0 +1,142 @@
+/* 1. Element Selectors */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b0e14;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #ff2a5f;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* 2. ID Selectors */
+
+#main-header {
+    background: linear-gradient(90deg, #111827, #1f1224);
+    border-bottom: 3px solid #ff2a5f;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+#hero-banner {
+    background-color: rgba(22, 27, 38, 0.95);
+    border: 1px solid #2d3748;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+#main-footer {
+    background-color: #06080c;
+    border-top: 1px solid #1e293b;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+
+/* 3. Class Selectors & Navbar Style 1 */
+
+.accent {
+    color: #ff2a5f;
+}
+
+.tagline {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.main-nav {
+    margin-top: 15px;
+    padding-top: 12px;
+    border-top: 1px solid #2d3748;
+}
+
+.main-nav a {
+    color: #cbd5e1;
+    margin: 0 10px;
+    padding: 6px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav a:hover,
+.main-nav .active {
+    color: #ff2a5f;
+    border-bottom: 2px solid #ff2a5f;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.highlight {
+    background-color: rgba(255, 42, 95, 0.2);
+    color: #fda4af;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 750px;
+    height: 340px;
+    object-fit: cover;
+    border: 2px solid #ff2a5f;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.pillars-section {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    min-width: 220px;
+    background-color: #141923;
+    border: 1px solid #2d3748;
+    border-top: 3px solid #ff2a5f;
+    border-radius: 8px;
+    padding: 18px;
+    margin: 10px 1%;
+    text-align: left;
+}
+
+.quote-box {
+    background-color: #141923;
+    border-left: 4px solid #ff2a5f;
+    padding: 15px 20px;
+    margin: 25px 0 0 0;
+    font-style: italic;
+    color: #cbd5e1;
+}
