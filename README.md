@@ -29,3 +29,5 @@ AI tools were used strictly as a tutor for planning, brainstorming, sourcing of 
 17-10-2026: Used Gemini, Claude, ChatGPT **FOR** CSS keywords, Obtaining different styling options, Choosing the appropriate margins, Hex codes and values for attributes. 
 
 18-10-2026: Used Gemini **FOR** Styling and layout scheme, Syntax/keywords explanations.
+
+19-10-2026: Used Gemini, ChatGPT, Claude **FOR** Final review of codes and if they fit the requirements of the rubrics - updated only register page to include a color input type as well.
