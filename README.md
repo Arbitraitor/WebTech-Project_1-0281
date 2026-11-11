@@ -38,3 +38,4 @@ AI tools were used strictly as a tutor for planning, brainstorming, sourcing of 
 
 09-11-2026: Used Claude, ChatGPT, Gemini **FOR** Figuring out how to implement both Bootstrap and required JavaScript functionalities, designing the drop-down questions.
 
+11-11-2026: Used Claude, Gemini **FOR** Final overview/review of the website, comparing it to requirements and summarizing the new content.
